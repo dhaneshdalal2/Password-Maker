@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+.main{
+ background-color: black;
+ color: aliceblue;
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+}
+
+.box{
+    min-width: 300px;
+    padding: 10px;
+    background:#2980b9;
+    box-shadow: 0 4px 10px rgba(0, 0,0,50%);
+    border-radius: 4spx;
+    margin-top: 10px;
+}
+
+#pass-box{
+ width: 100%;
+ display: block;
+ background-color:black;
+ font-size: 30px;
+ border-radius: 4px;
+ padding: 10px;
+
+}
+.row{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    font-size: 20px;
+    color: black;
+}
+
+label {
+    user-select: none;
+}
+
+#btn{
+    width: 100%;
+    font-size: 20px;
+    outline: 0;
+    padding: 10px;
+    background-color: #34495e;
+    color:white;
+    margin-top: 10px;
+    border-radius: 5px;
+}
